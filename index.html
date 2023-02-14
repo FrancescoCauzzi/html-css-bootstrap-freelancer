@@ -34,14 +34,22 @@
     </nav>
 
 
-    <div class="container-fluid p-5 text-white text-uppercase text-center">
+    <div class="container-fluid p-5 text-white text-uppercase text-center __header-container">
       <div class="mb-2 my-img-container">
         <img src="https://picsum.photos/400" class="img-fluid" alt="...">
       </div>
       <h1>START BOOTSTRAP</h1>
 
-      <div class="my-separator">
-        -
+      <div class="my-separator fs-2 d-flex justify-content-center align-items-center mb-4">
+        <div class="__separator-line m-3">
+
+        </div>
+        <div class="__icon">
+          <i class="bi bi-star-fill d-flex "></i>
+        </div>
+        <div class="__separator-line m-3">
+
+        </div>
       </div>
 
       <div class="fw-bold">
@@ -57,8 +65,16 @@
   <main>
     <section class="container __portfolio p-5 text-center">
       <h2>PORTFOLIO</h2>
-      <div class="my-separator">
-        -
+      <div class="my-separator fs-2 d-flex justify-content-center align-items-center mb-4">
+        <div class="__separator-line m-3">
+
+        </div>
+        <div class="__icon">
+          <i class="bi bi-star-fill d-flex "></i>
+        </div>
+        <div class="__separator-line m-3">
+
+        </div>
       </div>
       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1  g-3 mb-4">
         <div class="col">
@@ -128,19 +144,27 @@
 
     </section>
     <section class="__about p-5 text-center">
-      <div class="container">
+      <div class="__about-inner container">
         <h2>ABOUT</h2>
-        <div class="my-separator">
-          -
+        <div class="my-separator fs-2 d-flex justify-content-center align-items-center">
+          <div class="__separator-line m-3">
+
+          </div>
+          <div class="__icon">
+            <i class="bi bi-star-fill d-flex "></i>
+          </div>
+          <div class="__separator-line m-3">
+
+          </div>
         </div>
         <div class="px-5">
-          <div class="row">
-            <div class="col-6">
+          <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 g-5 ">
+            <div class="col">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quisquam facere ex ratione assumenda
               blanditiis, quasi aliquid asperiores. Molestias voluptatem fugiat eius similique minus reprehenderit
               doloremque laudantium accusamus harum repellendus.
             </div>
-            <div class="col-6">
+            <div class="col">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quam, similique facilis odio et porro modi
               minima distinctio delectus perferendis rem enim nostrum a at optio, cum excepturi doloremque! Ab.
             </div>
@@ -159,9 +183,9 @@
 
     </section>
     <section class="container py-5">
-      <div class="text-center">
+      <div class="__contact-me text-center">
         <h2>CONTACT ME</h2>
-        <div class="my-separator fs-2 d-flex justify-content-center align-items-center">
+        <div class="my-separator fs-2 d-flex justify-content-center align-items-center ">
           <div class="__separator-line m-3">
 
           </div>
@@ -174,32 +198,37 @@
         </div>
       </div>
       <div class="px-5">
-        <form class="px-2">
-          <div class="mb-3">
+        <form class="px-5">
+          <div class="mb-3 px-5">
             <!-- <label for="exampleInputPassword1" class="form-label">Name</label> -->
             <input placeholder="Name" type="text" class="form-control border-0 border-bottom rounded-0 px-0"
               id="exampleInputPassword1">
           </div>
-          <div class="mb-3">
+          <div class="mb-3 px-5">
             <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
             <input placeholder="Email" type="email" class="form-control border-0 border-bottom rounded-0 px-0"
               id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
-          <div class="mb-3">
+          <div class="mb-3 px-5">
             <!-- <label for="exampleInputPhone1" class="form-label">Phone Number</label> -->
             <input placeholder="Telephone Number" type="number"
               class="form-control border-0 border-bottom rounded-0 px-0" id="exampleInputPhone1"
               aria-describedby="emailHelp">
           </div>
-          <div class="mb-3">
+          <div class="mb-3 px-5">
             <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
             <textarea placeholder="Message" class="form-control border-0 border-bottom rounded-0 px-0"
               id="exampleFormControlTextarea1" rows="5"></textarea>
           </div>
 
+          <div class="mb-3 px-5">
+            <button type="submit" class="btn btn-primary __contact-btn px-5">Send</button>
 
-          <button type="submit" class="btn btn-primary __contact-btn">Send</button>
-        </form>
+          </div>
+
+      </div>
+
+      </form>
 
       </div>
 
@@ -209,12 +238,12 @@
   <footer>
     <div class="__footer-info ">
       <div class="container p-5 text-center">
-        <div class="row px-5">
-          <div class="col">
+        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1 px-5">
+          <div class="col mb-4">
             <h5>LOCATION</h5>
             <span>2215 John Daniel Drive Clark, MO 54243</span>
           </div>
-          <div class="col __around-the-web">
+          <div class="col __around-the-web mb-4">
             <h5>AROUND THE WEB</h5>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
@@ -222,7 +251,7 @@
             <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
 
           </div>
-          <div class="col __about-freelancer">
+          <div class="col __about-freelancer mb-4">
             <h5>ABOUT FREEELANCER</h5>
             Freelance is a free to use, open source Bootstrap theme create by <a href="https://getbootstrap.com/">Sart
               Bootstrap</a>

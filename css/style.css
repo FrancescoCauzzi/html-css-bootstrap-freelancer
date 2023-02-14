@@ -72,7 +72,17 @@ header{
 
 .__separator-line{
   height: 3px;
-  width: 80px;
-  background-color: #2C3E50;
+  width: 145px;  
   border-radius: 25px;
+}
+
+.__contact-me .__separator-line, .__portfolio .__separator-line{
+  background-color: #2C3E50;
+  
+}
+
+
+
+.__header-container .my-separator .__separator-line, .__about-inner .__separator-line{
+  background-color: white;
 }
