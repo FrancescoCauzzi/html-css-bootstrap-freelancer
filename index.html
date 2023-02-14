@@ -16,27 +16,58 @@
 
 <body>
   <header>
-    <nav class="__nav-bar py-3 text-uppercase text-white fw-bold">
-      <div class="container d-flex justify-content-between">
-        <div class="__nav-left">
-          start bootstrap
-        </div>
-        <div class="__nav-right">
-          <ul class="list-unstyled d-flex m-0 ">
-            <li class="px-3 "><a class="text-white text-decoration-none" href="">portfolio</a></li>
-            <li class="px-3 "><a class="text-white text-decoration-none" href="">about</a></li>
+    <nav class="__nav-bar  text-uppercase text-white fw-bold navbar navbar-expand-md  ">
+      <div class="container-fluid px-md-5">
+
+        <!-- <div class="container d-flex justify-content-between">
+          <div class="__nav-left">
+            start bootstrap
+          </div>
+          <div class="__nav-right">
+            <ul class="list-unstyled d-flex m-0 ">
+              <li class="px-3 "><a class="text-white text-decoration-none" href="">portfolio</a></li>
+              <li class="px-3 "><a class="text-white text-decoration-none" href="">about</a></li>
             <li class="px-3 "><a class="text-white text-decoration-none" href="">contact</a></li>
           </ul>
         </div>
+        
+        </div> -->
 
-      </div>
+        <a class="navbar-brand text-white" href="#">start bootstrap</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="offcanvas offcanvas-end __my-offcanvas " tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">start bootstrap</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
 
     </nav>
 
+    </div>
 
-    <div class="container-fluid p-5 text-white text-uppercase text-center __header-container">
-      <div class="mb-2 my-img-container">
-        <img src="https://picsum.photos/400" class="img-fluid" alt="...">
+    <div class="container-fluid p-5 text-white text-uppercase text-center">
+      <div class="mb-2 __my-img-container ">
+        <img src="img/avatar.svg" class="img-fluid" alt="...">
       </div>
       <h1>START BOOTSTRAP</h1>
 
@@ -78,33 +109,33 @@
       </div>
       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1  g-3 mb-4">
         <div class="col">
-          <div class="__my-col-inner rounded-3">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner ">
+            <img class="img-fluid rounded-3" src="img/cabin.png">
           </div>
         </div>
         <div class="col">
-          <div class="__my-col-inner rounded-3 ">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner ">
+            <img class="img-fluid rounded-3 " src="img/cake.png">
           </div>
         </div>
         <div class="col">
-          <div class="__my-col-inner rounded-3 ">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner  ">
+            <img class="img-fluid rounded-3" src="img/circus.png">
           </div>
         </div>
         <div class="col">
-          <div class="__my-col-inner rounded-3 ">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner ">
+            <img class="img-fluid  rounded-3" src="img/game.png">
           </div>
         </div>
         <div class="col">
-          <div class="__my-col-inner rounded-3 ">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner  ">
+            <img class="img-fluid rounded-3" src="img/safe.png">
           </div>
         </div>
         <div class="col">
-          <div class="__my-col-inner rounded-3 ">
-            <img class="img-fluid" src="https://picsum.photos/400/300">
+          <div class="__my-col-inner  ">
+            <img class="img-fluid rounded-3" src="img/submarine.png">
           </div>
         </div>
 
@@ -143,7 +174,7 @@
       </div> -->
 
     </section>
-    <section class="__about p-5 text-center">
+    <section class="__about py-5 text-center">
       <div class="__about-inner container">
         <h2>ABOUT</h2>
         <div class="my-separator fs-2 d-flex justify-content-center align-items-center">
@@ -158,13 +189,13 @@
           </div>
         </div>
         <div class="px-5">
-          <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 g-5 ">
-            <div class="col">
+          <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 g-5 px-5">
+            <div class="col text-start px-5">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quisquam facere ex ratione assumenda
               blanditiis, quasi aliquid asperiores. Molestias voluptatem fugiat eius similique minus reprehenderit
               doloremque laudantium accusamus harum repellendus.
             </div>
-            <div class="col">
+            <div class="col text-start px-5">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quam, similique facilis odio et porro modi
               minima distinctio delectus perferendis rem enim nostrum a at optio, cum excepturi doloremque! Ab.
             </div>
@@ -225,10 +256,10 @@
             <button type="submit" class="btn btn-primary __contact-btn px-5">Send</button>
 
           </div>
-
+        </form>
       </div>
 
-      </form>
+
 
       </div>
 

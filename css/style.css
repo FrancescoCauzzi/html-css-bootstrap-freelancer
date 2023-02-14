@@ -7,11 +7,22 @@ header{
 .__nav-bar{
   /* border: 2px solid black; */
   background-color: #2C3E50;
-  color: white;
-  
-  
+  color: white; 
 }
 
+nav{
+  background-color: #2C3E50;
+  color: white;
+}
+
+.__my-img-container{
+  width: 30%;
+  margin: auto;
+}
+
+.__my-offcanvas{
+  background-color: #2C3E50;
+}
 
 /* .__header-container{
   border: 2px solid black;
@@ -72,7 +83,7 @@ header{
 
 .__separator-line{
   height: 3px;
-  width: 145px;  
+  width: 10%;  
   border-radius: 25px;
 }
 
