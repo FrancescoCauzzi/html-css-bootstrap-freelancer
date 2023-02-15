@@ -16,8 +16,12 @@ nav{
 }
 
 .__my-img-container{
-  width: 30%;
-  margin: auto;
+  padding: 0 120px;
+  /* margin: auto; */
+}
+
+.__my-img-container img{
+  max-width: 200px;
 }
 
 .__my-offcanvas{
@@ -94,6 +98,6 @@ nav{
 
 
 
-.__header-container .my-separator .__separator-line, .__about-inner .__separator-line{
+.__header-container .my-separator .__separator-line, .__about-inner .__separator-line, .__start-bootstrap-center .my-separator .__separator-line{
   background-color: white;
 }
